@@ -14,6 +14,7 @@ use Illuminate\Queue\Connectors\RedisConnector;
 use Illuminate\Queue\Failed\NullFailedJobProvider;
 use Illuminate\Queue\Connectors\DatabaseConnector;
 use Illuminate\Queue\Connectors\BeanstalkdConnector;
+use Illuminate\Queue\Connectors\IronConnector;
 use Illuminate\Queue\Failed\DatabaseFailedJobProvider;
 
 class QueueServiceProvider extends ServiceProvider
